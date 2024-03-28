@@ -217,10 +217,12 @@ img{
         position:absolute;
     }
     .container {
-        position: relative;
+        position:absolute;
        min-width:340px;
         /* overflow-x: hidden; */
-        height:100vh;
+/*         min-height: 100vh; */
+        background-size:cover;
+        
     }
     .top {
         height:200px;
